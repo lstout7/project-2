@@ -1,5 +1,39 @@
 // jshint esversion: 6
 
+//3a
+let revWord1 = (str) =>{
+  let arr = str.split("");
+  let result = "";
+  for (char of arr){
+    result = char + result;
+  }
+  return result;
+};
+
+//3b
+let revWords2 = (str) => {
+  let arr = str.split("");
+  let result = "";
+  arr.forEach((char)=>{
+    result = char + result;
+  });
+  return result;
+};
+
+//3c
+let revWords3 = (str) => {
+  let arr = str.split("");
+  let result = "";
+  for (char of arr){
+    result = char + result;
+  }
+  return result;
+};
+
+
+
+
+
 let containsDuplicates = s => {
   let cArr = [0, 0, 0, 0],
     code;
